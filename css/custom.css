@@ -23,3 +23,35 @@ footer .position-fixed{
     background: #9ee5f0 !important;
 
 }
+
+#kuanroomprice th{
+    width: 25%;
+}
+
+#kuanroom nav>a{
+flex: 0 1 15%;
+transition:500ms ease;
+}
+#kuanroom nav>a.active{
+    background-color: #17a2b8;
+    }
+#kuanroom .tab-content>.row.active{
+    display: flex;
+}
+
+#kuanfaci {
+
+background-image: url("https://picsum.photos/1280/960/?random=3");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+color: white;
+
+
+}
+
+#kuanmap iframe{
+    filter:brightness(0.5);
+
+
+}
